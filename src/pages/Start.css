@@ -1,0 +1,47 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid black; */
+    height: 710px;
+}
+
+.start-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+.title{
+    color: #FBF5E5;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.img-container{
+    height: 290px;
+    width: 290px;
+    background-color: #C890A7;
+    display: flex;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);   
+
+}
+
+
+.start-img{
+    height: 290px;
+    width: 290px;
+    background-size: cover;
+    background-image: url(../assets/book.png);
+   
+}

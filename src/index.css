@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Fredoka:wght@300..700&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html{
+    font-family: "Patrick Hand", cursive;
+}
+
+.container{
+    height: 600px;
+    width: 500px;
+    background-color: #A35C7A;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);  
+}

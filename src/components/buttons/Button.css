@@ -1,0 +1,19 @@
+
+.button{
+    height: 46px;
+    width: 139px;
+    border-radius: 7px;
+    background-color:  #C890A7;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.name{
+font-family: "Fredoka", sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #FBF5E5;
+}

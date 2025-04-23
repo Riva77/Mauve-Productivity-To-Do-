@@ -1,4 +1,3 @@
-// import Button from '../components/buttons/Button'
 
 import { useState } from "react";
 import Button from "../components/buttons/Button"
@@ -34,7 +33,6 @@ const Display = () => {
       )
     );
   };
-
 
   const completedPercent = tasks.length > 0
   ? (tasks.filter(task => task.done).length / tasks.length) * 100
@@ -122,9 +120,10 @@ const Display = () => {
 
 
     <div className="finish-button">
-      <Button text="FINISH DAY" onClick={()=>navigate('finish')}/></div>
+      <Button text="FINISH DAY" onClick={()=>navigate('/finish', { state: { completedPercent } })}/></div>
     </div>
   </div>
+
   )
 }
 

@@ -14,7 +14,7 @@ const Start = () => {
       <div className="start-img">
       </div>    
       </div>
-      <span><Button text='START' onClick={()=>navigate('display')}/></span>
+      <span><Button text='START' onClick={()=>navigate('/display')}/></span>
       </div>
     </div>
   )

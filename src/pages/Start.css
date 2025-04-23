@@ -4,7 +4,11 @@
     justify-content: center;
     align-items: center;
     /* border: 5px solid black; */
-    height: 710px;
+    height: 742px;
+    background-image: url(../assets/bg.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+
 }
 
 .start-div{

@@ -1,0 +1,13 @@
+.end-img{
+    height: 290px;
+    width: 290px;
+    background-size: cover;
+    background-image: url(../assets/end.png);
+
+   
+}
+
+.final{
+    font-size: 20px;
+
+}

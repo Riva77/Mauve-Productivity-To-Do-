@@ -48,8 +48,3 @@ Screenshots of the application interface:
 | CSS3           | Styling                                |  |
 
 
----
-
-## 💖 Made with love by Riva
-
-Thanks for checking it out! 🌸✨
